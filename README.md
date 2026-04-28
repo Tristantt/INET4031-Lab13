@@ -1,14 +1,3 @@
-Docker Lab: Containerizing a Three-Tier Application
-
-INET 4031 - Introductions to Systems
-
-This lab introduces Docker and Docker Compose by having you containerize a real, multi-service application. You will package three components: Apache, Flask, and MariaDB. These will be packaged into separate containers and wired together so they function as a complete application.
-
-The application code and scaffolding are provided. Your job is to complete the Dockerfiles, verify the stack runs correctly, and document your work below.
-
-Directions and explanations for this lab are on the repository Wiki. Refer to the Wiki pages for step-by-step instructions.
-The sections below are for you to fill out. Replace each placeholder with your own content before submitting. Having a detailed README is the best practice for showing your work in future GitHub repositories.
-
 Lab 13 – Kubernetes Deployment
 INET 4031 – Introduction to Systems
 This lab extends the Docker-based application developed in Lab 12 by migrating it into a Kubernetes environment using k3s. Instead of relying on Docker Compose to manage containers, Kubernetes is used to deploy and orchestrate the application through declarative configuration files.
